@@ -1,6 +1,6 @@
 # 5.6 Secrets Project
 
-Small Express + EJS app that fetches a random "secret" from an external API and displays it on the homepage.
+Small Express and EJS app using axios to fetch a random "secret" from an external API and display it on the homepage.
 
 ## Prerequisites
 - Node.js (v14+ recommended)
@@ -33,5 +33,3 @@ Open http://localhost:3000 in your browser.
 ## Notes
 - The server listens on port 3000 by default (see `index.js`).
 - The app uses `axios` to request a random secret from `https://secrets-api.appbrewery.com/random`.
-
-If you'd like, I can add a `start` script to `package.json` or expand the README with contribution and license sections.
